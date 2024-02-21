@@ -1,0 +1,21 @@
+/* styles.css */
+
+.defiled-images {
+    display: flex;
+
+    
+  }
+  
+  .defiled-images img {
+    width: calc(33.333% - 14px);
+    margin: 0 5px 10px 0;
+  }
+  
+  .defiled-images img:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  .defiled-images img:last-child {
+    margin-bottom: 0;
+  }
+  
